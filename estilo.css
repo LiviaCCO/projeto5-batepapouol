@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.topo{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 90%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 24px;
+}
+.topo ion-icon{
+    width: 30px;
+    height: 42px;
+}
+.topo img{
+    width: 75px;
+    height: 53px;
+}
+.batePapo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 106px;
+}
+.mensagens{
+    border-radius: 2px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 8px;
+    padding-right: 9px;
+}
+.EntSai{
+    height:40px;
+    background-color: #DCDCDC;
+}
+.Geral{
+    height:40px;
+    background: #FFFFFF;
+}
+.Reserv{
+    background: #FFDEDE;
+}
+.mensagem{
+    height: 80px;
+    width: 90%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0px; 
+    bottom: 0px;
+    padding-left: 17px;
+    padding-right: 27px;
+}
+.mensagem button{
+    background-color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+.mensagem button:hover{
+    cursor:pointer;
+
+}
+.mensagem ion-icon{
+    width: 24px;
+    height: 24px;
+}
+input{
+    font-style: italic;
+    border:#FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+}
+
